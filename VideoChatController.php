@@ -2,15 +2,12 @@
 
 namespace App\Domains\VideoChat\Controllers;
 
-use App\Domains\Event\Models\Event;
 use App\Domains\VideoChat\Filters\VideoChatsFilter;
 use App\Domains\VideoChat\Requests\ChatsFilterRequest;
 use App\Domains\VideoChat\Requests\VideoChatsFilterRequest;
 use App\Domains\VideoChat\Requests\VideoChatsRequest;
-use App\Domains\VideoChat\Services\VideoChatMemberServices;
 use App\Domains\VideoChat\Services\VideoChatServices;
 use App\Domains\VideoChat\Transformers\VideoChatTransformer;
-use App\Domains\Workspace\Models\Workspace;
 use App\Http\Controllers\Controller;
 use Dingo\Api\Http\Response;
 use Illuminate\Support\Facades\Auth;
